@@ -21,7 +21,7 @@ const TodoInput = ({onAddTask}) => {
     <form onSubmit={handleSubmit}>
       <div className='flex flex-row'>
 
-        <input className='border-solid border-2' type='text' value={task} onChange={(e)=>setTask(e.target.value)} name='taskInput'/>
+        <input className='border-solid border-2 text-gray-950' type='text' value={task} onChange={(e)=>setTask(e.target.value)} name='taskInput'/>
         <button className='px-2'>Add</button>
       </div>
        
